@@ -47,7 +47,7 @@
 
 @layer base {
   * {
-    @apply border ring-1 ring-ring/50;
+    @apply border outline;
 
   }
   body {
