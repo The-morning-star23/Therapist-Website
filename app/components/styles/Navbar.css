@@ -1,5 +1,5 @@
 .navbar {
-  @apply fixed top-0 w-full bg-background/80 backdrop-blur-sm z-50 border-b;
+  @apply fixed top-0 w-full bg-white bg-opacity-80 backdrop-blur-sm z-50 border-b;
 }
 
 .navbar-container {
