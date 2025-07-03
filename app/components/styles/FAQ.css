@@ -14,8 +14,10 @@
   @apply space-y-4;
 }
 
-.faq-item {
-  @apply bg-white/20 backdrop-blur-sm rounded-lg border border-white/30;
+faq-item {
+  @apply backdrop-blur-sm rounded-lg border;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
 }
 
 .faq-question {

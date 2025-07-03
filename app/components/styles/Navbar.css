@@ -23,11 +23,18 @@
 }
 
 .navbar-link {
-  @apply text-muted-foreground hover:text-foreground transition-colors;
+  @apply text-gray-500 hover:text-gray-900 transition-colors;
 }
 
+
 .navbar-button {
-  @apply bg-teal-500/80 hover:bg-teal-600/90 text-white px-4 py-2 rounded-md transition;
+  @apply bg-teal-500 text-white px-4 py-2 rounded-md transition;
+  opacity: 0.8;
+}
+
+.navbar-button:hover {
+  @apply bg-teal-600;
+  opacity: 0.9;
 }
 
 .navbar-menu-button {
@@ -35,7 +42,7 @@
 }
 
 .menu-toggle-button {
-  @apply inline-flex items-center justify-center p-2 rounded-md text-muted-foreground hover:text-foreground focus:outline-none;
+  @apply inline-flex items-center justify-center p-2 rounded-md text-gray-500 hover:text-gray-900 focus:outline-none;
 }
 
 .mobile-menu {
@@ -47,7 +54,7 @@
 }
 
 .mobile-menu-link {
-  @apply block px-3 py-2 text-base font-medium text-muted-foreground hover:text-foreground;
+  @apply block px-3 py-2 text-base font-medium text-gray-500 hover:text-gray-900;
 }
 
 .mobile-menu-button-wrapper {

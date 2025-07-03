@@ -7,7 +7,8 @@
 }
 
 .quote-overlay {
-  @apply absolute inset-0 bg-black/20;
+  @apply absolute inset-0;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .quote-content {
@@ -19,5 +20,6 @@
 }
 
 .quote-author {
-  @apply text-xl text-white/90 mt-6;
+  @apply text-xl mt-6;
+  color: rgba(255, 255, 255, 0.9);
 }
