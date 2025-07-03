@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import './Navbar.css'
+import '../../styles/Navbar.css'
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)

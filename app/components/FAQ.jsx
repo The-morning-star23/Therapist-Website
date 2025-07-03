@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import "./FAQ.css"
+import "../../styles/FAQ.css"
 
 export default function FAQ() {
   const faqs = [

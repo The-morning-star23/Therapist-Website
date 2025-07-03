@@ -1,4 +1,4 @@
-import './styles/About.css';
+import '../../styles/styles/About.css';
 
 const qualifications = [
   {
