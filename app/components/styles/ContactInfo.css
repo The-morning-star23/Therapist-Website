@@ -1,0 +1,23 @@
+.contactinfo-section {
+  @apply py-16 bg-[#FAF9F6];
+}
+
+.contactinfo-container {
+  @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center;
+}
+
+.contactinfo-heading {
+  @apply text-3xl font-serif text-[#8B7355] mb-8;
+}
+
+.contactinfo-details {
+  @apply space-y-6 text-gray-700;
+}
+
+.contactinfo-text {
+  @apply text-lg;
+}
+
+.contactinfo-email {
+  @apply text-teal-600 hover:text-teal-700 underline;
+}

@@ -1,29 +1,31 @@
+import './Pricing.css'
+
 export default function Pricing() {
   return (
-    <section className="py-24 bg-[#A8C5B8]">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-4xl font-serif text-gray-800 mb-16">Rates and Insurance</h2>
-        
-        <div className="space-y-8 mb-12">
-          <div className="text-xl text-gray-700">
+    <section className="pricing-section">
+      <div className="pricing-container">
+        <h2 className="pricing-title">Rates and Insurance</h2>
+
+        <div className="pricing-fees">
+          <div className="pricing-item">
             <span className="font-medium">Session Fee</span> - $200
           </div>
-          
-          <div className="text-xl text-gray-700">
+
+          <div className="pricing-item">
             <span className="font-medium">Psychodiagnostic Evaluation</span> - $225
           </div>
         </div>
 
-        <div className="space-y-6 text-gray-700 leading-relaxed">
-          <p className="text-lg">
+        <div className="pricing-details">
+          <p className="pricing-text">
             I accept both private pay and insurance. I am in-network with BCBS and Aetna.
           </p>
-          
-          <p className="text-lg">
+
+          <p className="pricing-text">
             For out-of-network plans, I've partnered with Mentaya{' '}
             <a 
               href="#" 
-              className="underline hover:text-gray-900 transition-colors"
+              className="pricing-link"
             >
               using this tool
             </a>{' '}

@@ -1,20 +1,22 @@
+import './ContactInfo.css';
+
 export default function ContactInfo() {
   return (
-    <section className="py-16 bg-[#FAF9F6]">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-3xl font-serif text-[#8B7355] mb-8">
+    <section className="contactinfo-section">
+      <div className="contactinfo-container">
+        <h2 className="contactinfo-heading">
           Dr. Serena Blake, PsyD (Clinical Psychologist)
         </h2>
         
-        <div className="space-y-6 text-gray-700">
+        <div className="contactinfo-details">
           <div>
-            <p className="text-lg">
+            <p className="contactinfo-text">
               <strong>Location:</strong> 1287 Maplewood Drive, Los Angeles, CA 90026
             </p>
           </div>
           
           <div className="space-y-2">
-            <p className="text-lg">
+            <p className="contactinfo-text">
               <strong>Contact:</strong>
             </p>
             <p>Phone: (323) 555-0192</p>
@@ -22,7 +24,7 @@ export default function ContactInfo() {
               Email:{' '}
               <a 
                 href="mailto:serena@blakepsychology.com" 
-                className="text-teal-600 hover:text-teal-700 underline"
+                className="contactinfo-email"
               >
                 serena@blakepsychology.com
               </a>
@@ -30,7 +32,7 @@ export default function ContactInfo() {
           </div>
           
           <div className="space-y-2">
-            <p className="text-lg">
+            <p className="contactinfo-text">
               <strong>Office Hours:</strong>
             </p>
             <p>In-person: Tue & Thu, 10 AM–6 PM</p>
@@ -39,5 +41,5 @@ export default function ContactInfo() {
         </div>
       </div>
     </section>
-  )
+  );
 }

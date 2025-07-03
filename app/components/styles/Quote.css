@@ -1,0 +1,23 @@
+.quote-section {
+  @apply relative h-[600px] flex items-center justify-center;
+  background-image: url('/images/waves.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.quote-overlay {
+  @apply absolute inset-0 bg-black/20;
+}
+
+.quote-content {
+  @apply relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center;
+}
+
+.quote-text {
+  @apply text-3xl sm:text-4xl lg:text-5xl font-serif text-white leading-relaxed;
+}
+
+.quote-author {
+  @apply text-xl text-white/90 mt-6;
+}

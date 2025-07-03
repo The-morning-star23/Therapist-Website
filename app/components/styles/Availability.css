@@ -1,0 +1,11 @@
+.availability-section {
+  @apply py-16 bg-[#FAF9F6];
+}
+
+.availability-container {
+  @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center;
+}
+
+.availability-text {
+  @apply text-2xl font-serif text-gray-700;
+}

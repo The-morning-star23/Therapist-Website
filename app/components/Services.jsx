@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import './Services.css'
 
 export default function Services() {
   const services = [
@@ -20,17 +21,16 @@ export default function Services() {
   ]
 
   return (
-    <section className="py-24 bg-[#FAF9F6]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
-        <div className="text-center mb-20">
-          <h2 className="text-4xl font-serif text-[#8B7355] mb-6">
+    <section className="services-section">
+      <div className="services-container">
+        <div className="services-header">
+          <h2 className="services-headline">
             Therapy can be a space where you invest in yourself—
           </h2>
-          <h3 className="text-3xl font-serif text-[#8B7355] mb-8">
+          <h3 className="services-subheadline">
             one of the highest forms of self-care.
           </h3>
-          <p className="text-gray-600 max-w-3xl mx-auto text-center leading-relaxed">
+          <p className="services-description">
             You may be led to therapy by anxiety, depression, relationship stress, past or recent trauma, 
             grief and loss, self-esteem issues, or challenges with family, parenting, or parental relationships. 
             Whatever the source of your stress, you don't have to face it alone. Therapy offers you the time 
@@ -38,12 +38,10 @@ export default function Services() {
           </p>
         </div>
 
-        {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="services-grid">
           {services.map((service, index) => (
-            <div key={index} className="flex flex-col items-center text-center">
-              {/* Circular Image Container */}
-              <div className="w-[300px] h-[300px] rounded-full overflow-hidden mb-6 relative">
+            <div key={index} className="service-card">
+              <div className="service-image-container">
                 <Image
                   src={service.image}
                   alt={service.title}
@@ -51,12 +49,10 @@ export default function Services() {
                   className="object-cover"
                 />
               </div>
-              
-              {/* Service Content */}
-              <h3 className="text-xl font-serif text-[#8B7355] mb-4">
+              <h3 className="service-title">
                 {service.title}
               </h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="service-text">
                 {service.description}
               </p>
             </div>
