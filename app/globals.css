@@ -47,7 +47,8 @@
 
 @layer base {
   * {
-    @apply border outline outline-ring/50;
+    @apply border ring-1 ring-ring/50;
+
   }
   body {
     @apply bg-background text-foreground;
