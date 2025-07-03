@@ -1,4 +1,4 @@
-import '../../styles/ContactInfo.css';
+import './styles/ContactInfo.css';
 
 export default function ContactInfo() {
   return (

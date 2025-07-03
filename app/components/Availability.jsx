@@ -1,4 +1,4 @@
-import '../../styles/Availability.css';
+import './styles/Availability.css';
 
 export default function Availability() {
   return (
