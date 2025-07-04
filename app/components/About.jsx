@@ -20,7 +20,7 @@ export default function About() {
           {/* Image Column */}
           <div className="about-image-wrapper">
             <img
-              src="/images/DrBlake.jpg"
+              src="/images/Dr Blake.jpg"
               alt="Dr. Serena Blake"
               className="about-image"
             />
