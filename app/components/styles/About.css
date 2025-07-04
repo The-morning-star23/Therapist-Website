@@ -1,5 +1,5 @@
 .about-section {
-  @apply py-20 bg-gray-50;
+  @apply bg-white py-24;
 }
 
 .about-container {
@@ -7,61 +7,25 @@
 }
 
 .about-grid {
-  @apply grid grid-cols-1 lg:grid-cols-2 gap-12 items-center;
-}
-
-.about-photo-wrapper {
-  @apply relative;
-}
-
-.about-photo-bg {
-  @apply aspect-square rounded-2xl bg-gradient-to-br from-blue-100 to-indigo-100 p-8;
-}
-
-.about-photo {
-  @apply w-full h-full rounded-xl bg-white flex items-center justify-center;
-}
-
-.about-avatar {
-  @apply w-48 h-48 mx-auto rounded-full bg-blue-50 flex items-center justify-center;
+  @apply grid grid-cols-1 md:grid-cols-2 gap-12 items-start;
 }
 
 .about-title {
-  @apply text-3xl font-bold mb-6;
+  @apply text-3xl md:text-4xl font-serif text-gray-800 mb-6;
 }
 
-.about-intro {
-  @apply text-gray-600 mb-8;
+.about-text {
+  @apply text-gray-700 text-base leading-relaxed;
 }
 
-.about-cards {
-  @apply grid grid-cols-1 md:grid-cols-3 gap-6;
+.about-paragraph {
+  @apply mb-6;
 }
 
-.about-card {
-  @apply bg-white rounded-lg shadow border;
+.about-image-wrapper {
+  @apply w-full flex justify-center;
 }
 
-.about-card-content {
-  @apply p-6;
-}
-
-.about-card-title {
-  @apply font-semibold mb-4;
-}
-
-.about-list {
-  @apply space-y-2 text-sm text-gray-600;
-}
-
-.about-list-item {
-  @apply flex items-center gap-2;
-}
-
-.about-dot {
-  @apply w-1.5 h-1.5 bg-blue-500 rounded-full;
-}
-
-.about-approach {
-  @apply mt-8 p-6 bg-white rounded-lg border shadow-sm;
+.about-image {
+  @apply rounded-md shadow-md max-w-full h-auto;
 }

@@ -1,45 +1,35 @@
-import './styles/ContactInfo.css';
+import './styles/ContactInfo.css'
 
-export default function ContactInfo() {
+export default function Footer() {
   return (
-    <section className="contactinfo-section">
-      <div className="contactinfo-container">
-        <h2 className="contactinfo-heading">
-          Dr. Serena Blake, PsyD (Clinical Psychologist)
-        </h2>
-        
-        <div className="contactinfo-details">
-          <div>
-            <p className="contactinfo-text">
-              <strong>Location:</strong> 1287 Maplewood Drive, Los Angeles, CA 90026
-            </p>
-          </div>
-          
-          <div className="space-y-2">
-            <p className="contactinfo-text">
-              <strong>Contact:</strong>
-            </p>
-            <p>Phone: (323) 555-0192</p>
-            <p>
-              Email:{' '}
-              <a 
-                href="mailto:serena@blakepsychology.com" 
-                className="contactinfo-email"
-              >
-                serena@blakepsychology.com
-              </a>
-            </p>
-          </div>
-          
-          <div className="space-y-2">
-            <p className="contactinfo-text">
-              <strong>Office Hours:</strong>
-            </p>
-            <p>In-person: Tue & Thu, 10 AM–6 PM</p>
-            <p>Virtual via Zoom: Mon, Wed & Fri, 1 PM–5 PM</p>
-          </div>
+    <footer className="footer-section">
+      <div className="footer-content">
+        <h2 className="footer-title">Dr. Serena Blake, PsyD, Clinical Psychologist</h2>
+        <p className="footer-info">1287 Maplewood Drive, Los Angeles, CA 90026</p>
+        <p className="footer-info">
+          Phone: <a href="tel:3235550192">(323) 555-0192</a> | Email: <a href="mailto:serena@blakepsychology.com">serena@blakepsychology.com</a>
+        </p>
+        <p className="footer-info">
+          <strong>Office Hours:</strong><br />
+          In-person: Tue & Thu, 10 AM–6 PM<br />
+          Virtual via Zoom: Mon, Wed & Fri, 1 PM–5 PM
+        </p>
+        <p className="footer-info">8 years of practice • 500+ client sessions</p>
+
+        <div className="footer-links">
+          <a href="/">Home</a>
+          <a href="/privacy">Privacy Policy</a>
+          <a href="/estimate">Good Faith Estimate</a>
         </div>
+
+        <div className="footer-portal">
+          <a href="/portal">Client Portal</a>
+        </div>
+
+        <p className="footer-copy">
+          © 2025 Serena Blake Psychology Services. All rights reserved.
+        </p>
       </div>
-    </section>
-  );
+    </footer>
+  )
 }

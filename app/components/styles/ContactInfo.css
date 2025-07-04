@@ -1,23 +1,39 @@
-.contactinfo-section {
-  @apply py-16 bg-[#FAF9F6];
+.footer-section {
+  @apply bg-[#f8f5ee] py-12 text-center text-gray-800;
 }
 
-.contactinfo-container {
-  @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center;
+.footer-content {
+  @apply max-w-3xl mx-auto px-4;
 }
 
-.contactinfo-heading {
-  @apply text-3xl font-serif text-[#8B7355] mb-8;
+.footer-title {
+  @apply text-xl font-serif mb-2;
 }
 
-.contactinfo-details {
-  @apply space-y-6 text-gray-700;
+.footer-info {
+  @apply mb-2;
 }
 
-.contactinfo-text {
-  @apply text-lg;
+.footer-info a {
+  @apply underline text-blue-700 hover:text-blue-900;
 }
 
-.contactinfo-email {
-  @apply text-teal-600 hover:text-teal-700 underline;
+.footer-links {
+  @apply flex justify-center space-x-4 mt-4;
+}
+
+.footer-links a {
+  @apply underline hover:text-gray-900;
+}
+
+.footer-portal {
+  @apply mt-4;
+}
+
+.footer-portal a {
+  @apply underline font-medium text-gray-700 hover:text-gray-900;
+}
+
+.footer-copy {
+  @apply mt-6 text-sm text-gray-600;
 }

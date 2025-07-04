@@ -1,43 +1,35 @@
-.services-section {
-  @apply py-24 bg-[#FAF9F6];
+.focus-section {
+  @apply bg-[#f5f2eb] py-24;
 }
 
-.services-container {
-  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+.focus-container {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
 }
 
-.services-header {
-  @apply text-center mb-20;
+.focus-title {
+  @apply text-4xl text-center font-serif text-gray-800 mb-16;
 }
 
-.services-headline {
-  @apply text-4xl font-serif text-[#8B7355] mb-6;
-}
-
-.services-subheadline {
-  @apply text-3xl font-serif text-[#8B7355] mb-8;
-}
-
-.services-description {
-  @apply text-gray-600 max-w-3xl mx-auto text-center leading-relaxed;
-}
-
-.services-grid {
+.focus-grid {
   @apply grid grid-cols-1 md:grid-cols-3 gap-12;
 }
 
-.service-card {
-  @apply flex flex-col items-center text-center;
+.focus-item {
+  @apply text-center;
 }
 
-.service-image-container {
-  @apply w-[300px] h-[300px] rounded-full overflow-hidden mb-6 relative;
+.focus-image-wrapper {
+  @apply w-48 h-48 mx-auto rounded-full overflow-hidden;
 }
 
-.service-title {
-  @apply text-xl font-serif text-[#8B7355] mb-4;
+.focus-image {
+  @apply w-full h-full object-cover;
 }
 
-.service-text {
-  @apply text-gray-600 leading-relaxed;
+.focus-subtitle {
+  @apply mt-6 text-lg font-semibold text-gray-800;
+}
+
+.focus-description {
+  @apply mt-4 text-sm text-gray-600 leading-relaxed;
 }

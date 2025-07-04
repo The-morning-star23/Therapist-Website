@@ -1,5 +1,5 @@
 .hero-topbar {
-  @apply bg-white py-4 px-6;
+  @apply bg-[#F5F3ED] py-4 px-6;
 }
 
 .hero-logo-container {
@@ -11,15 +11,15 @@
 }
 
 .hero-name {
-  @apply text-xl font-serif;
+  @apply text-xl font-serif font-semibold text-[#3D3D3D];
 }
 
 .hero-subtext {
-  @apply text-gray-600;
+  @apply text-gray-600 text-sm;
 }
 
 .hero-section {
-  @apply min-h-screen flex items-center justify-center relative overflow-hidden;
+  @apply relative h-[600px] flex items-center justify-center;
 }
 
 .hero-video {
@@ -27,21 +27,21 @@
 }
 
 .hero-overlay {
-  @apply absolute inset-0 bg-black/30;
+  @apply absolute inset-0 bg-black bg-opacity-30;
 }
 
 .hero-content {
-  @apply relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center;
+  @apply relative z-10 text-center max-w-4xl mx-auto px-4;
 }
 
 .hero-heading {
-  @apply text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight;
+  @apply text-white font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6;
 }
 
 .hero-description {
-  @apply text-lg sm:text-xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed;
+  @apply text-white text-lg sm:text-xl leading-relaxed mb-8;
 }
 
 .hero-button {
-  @apply bg-teal-500/80 hover:bg-teal-600/90 text-white px-12 py-6 text-lg rounded-full backdrop-blur-sm border border-white/20 transition;
+  @apply bg-[#C5D6D3] hover:bg-[#b6c8c5] text-white font-semibold px-8 py-4 rounded-full text-base transition;
 }

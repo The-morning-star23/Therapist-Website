@@ -1,4 +1,3 @@
-import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Services from './components/Services'
@@ -8,17 +7,17 @@ import Availability from './components/Availability'
 import ContactInfo from './components/ContactInfo'
 import FAQ from './components/FAQ'
 import ContactForm from './components/ContactForm'
-
+import SelfCareSection from './components/SelfCareSection'
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <Navbar />
       <Hero />
       <About />
+      <SelfCareSection />
       <Services />
-      <Quote />
       <Pricing />
       <Availability />
+      <Quote />
       <ContactInfo />
       <FAQ />
       <ContactForm />

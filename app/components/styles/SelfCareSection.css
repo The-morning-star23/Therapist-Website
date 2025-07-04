@@ -1,0 +1,19 @@
+.selfcare-section {
+  @apply bg-[#f2eee7] py-20 text-center;
+}
+
+.selfcare-divider {
+  @apply border-t border-gray-300 mx-8 sm:mx-16 mb-12;
+}
+
+.selfcare-content {
+  @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.selfcare-heading {
+  @apply text-2xl sm:text-3xl lg:text-4xl font-serif text-gray-800 mb-8;
+}
+
+.selfcare-description {
+  @apply text-gray-600 text-base leading-relaxed;
+}

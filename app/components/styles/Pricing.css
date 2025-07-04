@@ -1,31 +1,23 @@
-.pricing-section {
-  @apply py-24 bg-[#A8C5B8];
+.rates-section {
+  @apply bg-[#88a8a2] py-20;
 }
 
-.pricing-container {
-  @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center;
+.rates-container {
+  @apply max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-900;
 }
 
-.pricing-title {
-  @apply text-4xl font-serif text-gray-800 mb-16;
+.rates-title {
+  @apply text-2xl sm:text-3xl font-serif mb-6;
 }
 
-.pricing-fees {
-  @apply space-y-8 mb-12;
+.rates-fees {
+  @apply mb-6 space-y-1 font-medium;
 }
 
-.pricing-item {
-  @apply text-xl text-gray-700;
+.rates-note {
+  @apply text-base mb-4;
 }
 
-.pricing-details {
-  @apply space-y-6 text-gray-700 leading-relaxed;
-}
-
-.pricing-text {
-  @apply text-lg;
-}
-
-.pricing-link {
-  @apply underline hover:text-gray-900 transition-colors;
+.rates-link {
+  @apply text-sm;
 }
