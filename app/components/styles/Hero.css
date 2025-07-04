@@ -30,25 +30,25 @@
 }
 
 .hero-name {
-  @apply text-lg md:text-xl font-sans font-semibold text-black;
+  @apply text-lg md:text-xl font-sans text-black;
 }
 
 .hero-subtext {
-  @apply text-lg md:text-xl font-sans font-semibold text-black;
+  @apply text-lg md:text-xl font-sans text-black;
 }
 
 /* Centered Content */
 .hero-content {
-  @apply relative z-10 h-full justify-center items-start px-6 max-w-3xl;
+  @apply relative z-10 h-full flex flex-col justify-center items-start px-6 max-w-3xl;
   margin-left: 5%;
 }
 
 .hero-heading {
-  @apply text-3xl md:text-5xl font-serif text-white font-semibold leading-snug mb-4;
+  @apply text-3xl md:text-5xl font-serif justify-center text-white font-semibold leading-snug mb-4;
 }
 
 .hero-description {
-  @apply text-white text-base md:text-lg mb-6 max-w-xl;
+  @apply text-white text-base justify-center md:text-lg mb-6 max-w-xl;
 }
 
 .hero-button {
