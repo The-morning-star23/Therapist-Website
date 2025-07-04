@@ -12,8 +12,7 @@ export default function Hero() {
         playsInline
         className="hero-video"
       >
-        <source src="/videos/waves.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
+        <source src={"./videos/waves.mp4"} type="video/mp4" />
       </video>
 
       {/* Overlay */}
