@@ -2,7 +2,7 @@
 
 
 import React, { useState } from 'react';
-import './styels//FAQ.css';
+import './styles/FAQ.css';
 
 const faqs = [
   {
