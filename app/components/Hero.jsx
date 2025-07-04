@@ -32,7 +32,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Centered Hero Content */}
       <div className="hero-content">
         <h2 className="hero-heading">
           Psychological Care for<br />Change, Insight, and Well-Being
