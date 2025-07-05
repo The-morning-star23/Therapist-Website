@@ -1,5 +1,5 @@
 .hero-wrapper {
-  @apply relative w-full h-screen overflow-hidden;
+  @apply relative w-full h-screen overflow-hidden px-[6vw];
 }
 
 .hero-video {
@@ -11,11 +11,11 @@
 }
 
 .hero-topbar {
-  @apply absolute top-0 left-0 w-full px-12 py-6 flex items-center bg-[#f5f3ed] z-10;
+  @apply absolute top-0 left-0 w-full py-6 flex items-start bg-[#f5f3ed] z-10 px-[6vw];
 }
 
 .hero-logo {
-  @apply flex items-center;
+  @apply flex items-start space-x-4;
 }
 
 .hero-logo-icon {
@@ -32,19 +32,19 @@
 
 .hero-content {
   @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
-         z-10 text-center flex flex-col items-center justify-center px-6;
+         z-10 text-center flex flex-col items-center justify-center px-[6vw] max-w-3xl;
 }
 
 .hero-heading {
-  @apply text-white text-4xl md:text-5xl font-serif font-semibold mb-4 leading-tight;
+  @apply text-white font-serif text-5xl md:text-6xl font-semibold leading-snug text-center mb-4;
 }
 
 .hero-description {
-  @apply text-white text-base md:text-lg max-w-2xl;
+  @apply text-white text-base md:text-lg max-w-xl;
 }
 
 .hero-button {
-  @apply bg-[#d6e2df] text-[#1a1a1a] px-8 py-3 rounded-full 
+  @apply bg-[#d6e2df] text-[#1a1a1a] px-10 py-3 rounded-full 
          font-semibold text-sm tracking-wide shadow-md 
-         hover:bg-[#cbd7d3] transition duration-200;
+         hover:bg-[#cbd7d3] transition duration-200 min-w-[280px];
 }
