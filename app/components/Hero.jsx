@@ -38,7 +38,7 @@ export default function Hero() {
         </h2>
         <p className="hero-description">
           Offering individual psychotherapy for adults via telehealth in Michigan and{' '}
-          <span className="underline decoration-white decoration-[1px] underline-offset-[0.2em]">
+          <span className="inline underline decoration-white decoration-[1px] underline-offset-[0.2em] whitespace-nowrap">
             most U.S. states
           </span>{' '}
           through PSYPACT participation.
