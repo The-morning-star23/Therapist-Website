@@ -37,10 +37,11 @@ export default function Hero() {
           <span className="hero-line-2">Change, Insight, and Well-Being</span>
         </h2>
         <p className="hero-description">
-          Offering individual psychotherapy for adults via telehealth in Michigan and{' '}
-          <span className="underline decoration-white underline-offset-2 decoration-[1.5px]">
-            most U.S. states
-          </span> through PSYPACT participation.
+           Offering individual psychotherapy for adults via telehealth in Michigan and{' '}
+           <span className="underline underline-offset-2 decoration-white decoration-[1.5px]">
+             most U.S. states
+           </span>{' '}
+           through PSYPACT participation.
         </p>
 
         <button className="hero-button">Schedule a Consultation</button>
