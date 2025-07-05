@@ -48,6 +48,10 @@
   @apply block text-3xl md:text-5xl;
 }
 
+.hero-description {
+  @apply text-white text-base md:text-lg max-w-2xl;
+}
+
 .hero-button {
   @apply bg-[#d6e2df] text-[#1a1a1a] px-8 py-3 rounded-full 
          font-semibold text-sm tracking-wide shadow-md 
