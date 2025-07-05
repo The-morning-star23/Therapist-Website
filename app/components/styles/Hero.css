@@ -36,7 +36,7 @@
 }
 
 .hero-heading {
-  @apply text-white text-4xl md:text-5xl font-serif font-semibold mb-4 leading-tight;
+  @apply text-white text-4xl md:text-5xl font-serif font-semibold mb-4;
 }
 
 .hero-description {
