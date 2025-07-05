@@ -48,7 +48,7 @@
 }
 
 .hero-description {
-  @apply text-white text-base md:text-lg max-w-2xl;
+  @apply text-white text-base md:text-lg whitespace-nowrap mt-4;
 }
 
 .hero-button {
