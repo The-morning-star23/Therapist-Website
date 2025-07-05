@@ -33,7 +33,8 @@ export default function Hero() {
 
       <div className="hero-content">
         <h2 className="hero-heading">
-          Psychological Care for<br />Change, Insight, and Well-Being
+          <span className="block">Psychological Care for</span>
+          <span className="block mt-4">Change, Insight, and Well-Being</span>
         </h2>
         <p className="hero-description">
           Offering individual psychotherapy for adults via telehealth in Michigan and most U.S. states through PSYPACT participation
