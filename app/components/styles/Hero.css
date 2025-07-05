@@ -36,11 +36,16 @@
 }
 
 .hero-heading {
-  @apply text-white text-4xl md:text-5xl font-serif font-semibold mb-4;
+  @apply font-serif text-white font-semibold text-center;
 }
 
-.hero-description {
-  @apply text-white text-base md:text-lg max-w-2xl;
+.hero-line-1 {
+  @apply block text-3xl md:text-5xl;
+  margin-bottom: 2rem;
+}
+
+.hero-line-2 {
+  @apply block text-3xl md:text-5xl;
 }
 
 .hero-button {
