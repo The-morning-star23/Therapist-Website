@@ -60,6 +60,6 @@
 
 .hero-button {
   @apply bg-[#d6e2df] text-[#FFFFFF] px-10 py-3 mt-6 
-         rounded-full font- font-semibold text-sm tracking-wide 
+         rounded-full font-mono font-semibold text-sm tracking-wide 
          shadow-md hover:bg-[#94B0B0] transition duration-200;
 }
